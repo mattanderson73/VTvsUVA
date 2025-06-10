@@ -57,7 +57,7 @@ Starting off, we used Selenium to scrap these reviews and attach them to the sam
 ## Visualizations
 With all of the data imported and cleaned, we can now begin visualization. First, we'll use a parallel coordinates graph to identify patterns or correlations between the 8 different aspects of student life across both schools.
 
-<img src="/Users/mattanderson/Documents/Spring25/3654/Project/Github Upload/images/parallelcords.png" width=1000 height=300>
+<img src="/images/parallelcords.png" width=1000 height=300>
 
 The parallel coordinates graph above displays ratings for nine aspects of students life on a scale from 0-5. The lines indicate rating combinations, with the maroon representing VT and navy blue representing UVA.
 Some things we observe are:
@@ -67,11 +67,11 @@ Some things we observe are:
 
 Next, we'll examine the Principal Component Analysis (PCA) and Multidimensional Scaling (MDS) of these attributes.
 
-<img src="/Users/mattanderson/Documents/Spring25/3654/Project/Github Upload/images/pca.png" width="550" height="400">
+<img src="/images/pca.png" width="550" height="400">
 
 Looking at the PCA graph, we observe overlap between schools in the center-right region, with VT's points clustering more tightly in the upper right section. This suggests VT students may have more consistent experiences. UVA's points are more dispersed, extending toward the left and lower regions, which could indicate greater variability in their student experiences.
 
-<img src="/Users/mattanderson/Documents/Spring25/3654/Project/Github Upload/images/mds.png" width="550" height="400">
+<img src="/images/mds.png" width="550" height="400">
 
 Looking at the MDS graph, we observe a similar pattern to the PCA, but with clearer separation. VT's points predominantly occupy the upper regions of the graph, while UVA's points are more concentrated in the lower region. We also notice a distinct cluster of UVA points at the bottom of the graph. This vertical differentiation suggests a significant difference in how students at each institution perceive and rate their school.
 
