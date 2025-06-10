@@ -24,7 +24,7 @@ But, how do we define "better"? We know the rankings of each school based on dif
 # **Analysis Q1**
 Throughout this initial analysis, we are going to use comments from Reddit and RateMyProfessors. In choosing these sources,  we are hoping to represent a range of views and opinions from aspiring, current, and former students for each respective university. All of our data will be from the past 10 years, as this gives a relevant representation. The data scraped from these websites will be stored in .csv files for code reproducability purposes. This way we do not have to rescrape every time we rerun our code.
 
-<img src="/Users/mattanderson/Documents/Spring25/3654/Project/Github Upload/images/posnegbar.png" width="550" height="400">
+<img src="/images/posnegbar.png" width="550" height="400">
 
 Looking at the sentiment analysis of VT and UVA on Reddit, we see that UVA and VT have very similar sentiments of both being roughly 2.5 times more positive than negative. On the other hand, we see a major difference in the RateMyProfessors data.
 
